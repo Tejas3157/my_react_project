@@ -3,9 +3,9 @@ import Navbar from './Navbar';
 import Footer from './Footer';
 
 function About() {
-  return (
-    <div>
-      <Navbar />
+    return (
+        <div>
+            <Navbar />
             <div id="About" className="container my-5">
                 <div className="row align-items-center">
                     <div className="col-md-4 text-center">
@@ -33,9 +33,16 @@ function About() {
             </div>
 
             <hr className="container my-5 border border-info border-2 opacity-50"></hr>
-            <Footer />
-    </div>
-  )
+            <footer className="footer fixed-bottom bg-dark text-white text-center py-3">
+                <div className="container">
+                    <p className="mb-1">© 2025 Tejas. All rights reserved.</p>
+                    <p className="mb-0">Follow me on:
+                        <a className="text-white fw-bold" href="https://www.linkedin.com/in/tejas-dunga-089b8a278">LinkedIn</a>
+                    </p>
+                </div>
+            </footer>
+        </div>
+    )
 }
 
 export default About
