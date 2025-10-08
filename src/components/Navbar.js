@@ -26,6 +26,7 @@ function Navbar() {
                     <li className="nav-item mx-2"><Link className="nav-link" to="/About">About</Link></li>
                     <li className="nav-item mx-2"><Link className="nav-link" to="/Skills">Skills</Link></li>
                     <li className="nav-item mx-2"><Link className="nav-link" to="/Contact">Contact</Link></li>
+                    <li className="nav-item mx-2"><Link className="nav-link" to="/Card">Cards</Link></li>
                 </ul>
             </div>
         </div>

@@ -8,16 +8,18 @@ import Home from './components/Home';
 import About from './components/About';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
+import Card from './components/Card';
 
 function App() {
   return (
     <div className="App">
       <Routes>
-         <Route path='/' element={<Home/>} />
-         <Route path='/About' element={<About/>} />
-          <Route path='/Skills' element={<Skills/>} />
-         <Route path='/Contact' element={<Contact/>} />
-       </Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/About' element={<About />} />
+        <Route path='/Skills' element={<Skills />} />
+        <Route path='/Contact' element={<Contact />} />
+        <Route path='/Card' element={<Card />} />
+      </Routes>
     </div>
   );
 }
