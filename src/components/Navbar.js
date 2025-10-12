@@ -13,7 +13,7 @@ function Navbar() {
 
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <div className="container-fluid">
-            <a className="navbar-brand ms-lg-3 text-white fs-4 fw-bold" href="#">
+            <a className="navbar-brand ms-lg-3 text-white fs-4 fw-bold" href="/">
                 <img src="https://res.cloudinary.com/deqfgxqqe/image/upload/v1755691091/Logo2_e_background_removal_f_png_e_improve_e_sharpen_mm6hlh.png"
                     alt="Logo here" width="50" height="50"></img>TEJAS
             </a>

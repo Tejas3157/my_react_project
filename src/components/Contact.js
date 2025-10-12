@@ -1,11 +1,9 @@
-import React from 'react'
-import Navbar from './Navbar';
-import Footer from './Footer'; 
+import React from 'react' 
 
 function Contact() {
   return (
     <div>
-        <Navbar />
+        
       <div id="Register" className="container my-5 h6">
             <div className="card p-4 shadow-sm">
                 <h2 className="text-center mb-4">Register Your Interest</h2>
@@ -97,7 +95,7 @@ function Contact() {
                 </form>
             </div>
         </div>
-        <Footer />
+        
     </div>
   )
 }

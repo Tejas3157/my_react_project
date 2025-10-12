@@ -27,7 +27,7 @@
 .App-link {
   color: #61dafb;
 }
-img:hover {
+.card:hover {
   transform: scale(1.1); /* Example: Zoom in the image by 10% on hover */
   filter: (100%); /* Example: Apply a grayscale filter on hover */
 }

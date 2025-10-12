@@ -1,6 +1,4 @@
 import React from 'react'
-import Navbar from './Navbar'; 
-import Footer from './Footer';
 import cat1 from '../Image/cat1.jpg';
 import cat2 from '../Image/cat2.jpg';
 import cat3 from '../Image/cat3.gif';   
@@ -15,7 +13,7 @@ import cat10 from '../Image/cat10.jpg';
 function Card() {
   return (
     <div>
-      <Navbar />
+      
       <div className="row row-cols-1 row-cols-md-3 g-4">
         <div className="col">
           <div className="card">
@@ -108,7 +106,7 @@ function Card() {
           </div>
         </div>
       </div>
-      <Footer />
+      
     </div>
   )
 }

@@ -1,11 +1,10 @@
 import React from 'react'
-import Navbar from './Navbar';
-import Footer from './Footer';
+
 
 function Home() {
     return (
         <div>
-            <Navbar />
+            
             <div>
 
                 <div id="About" className="container my-5">
@@ -196,7 +195,6 @@ function Home() {
                 </div>
             </div>
 
-            <Footer />
         </div>
     )
 }
