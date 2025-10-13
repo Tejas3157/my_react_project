@@ -32,6 +32,31 @@
   filter: (100%); /* Example: Apply a grayscale filter on hover */
 }
 
+.gallery-title {
+    font-weight: 700;
+    color: #dee2e6;
+}
+
+.cat-card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #1e1e1e;
+}
+
+.cat-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    z-index: 10;
+}
+
+.cat-card-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
