@@ -1,11 +1,10 @@
 import React from 'react'
-import Navbar from './Navbar';
-import Footer from './Footer';
+
 
 function Skills() {
     return (
         <div>
-            <Navbar />
+            
             <div id="Skills" className="container my-5">
                 <div className="bg-white p-4 p-md-5 rounded shadow-sm">
                     <h2 className="text-center mb-4">My Skills</h2>
@@ -68,7 +67,6 @@ function Skills() {
 
                 <hr className="container my-5 border border-info border-2 opacity-50"></hr>
 
-             <Footer />
         </div>
     )
 }
